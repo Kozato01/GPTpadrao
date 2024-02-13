@@ -2,7 +2,7 @@ streamlit
 langchain==0.0.332
 PyPDF2==3.0.1
 openai
-langchain-communit
+langchain-community
 langchain-openai
 python-dotenv
 chromadb
