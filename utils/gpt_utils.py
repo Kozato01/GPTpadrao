@@ -12,7 +12,6 @@ from langchain.memory import ConversationBufferMemory
 from langchain.vectorstores import Chroma, FAISS
 from dotenv import load_dotenv, find_dotenv
 
-
 load_dotenv(find_dotenv()) 
 
 llm = AzureChatOpenAI(
