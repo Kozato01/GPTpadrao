@@ -1,7 +1,7 @@
 streamlit
 pypdf
 unstructured
-langchain==0.0.332
+langchain==0.0.276
 PyPDF2==3.0.1
 openai
 langchain-community
@@ -12,3 +12,4 @@ streamlit-chat
 streamlit_authenticator
 streamlit_extras==0.4.0
 tiktoken
+pysqlite3-binary 
