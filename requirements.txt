@@ -12,4 +12,3 @@ streamlit-chat
 streamlit_authenticator
 streamlit_extras==0.4.0
 tiktoken
-sqlite3
