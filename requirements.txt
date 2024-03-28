@@ -12,4 +12,4 @@ streamlit-chat
 streamlit_authenticator
 streamlit_extras==0.4.0
 tiktoken
-pip install 'pysqlite3-binary'
+pip 'install pysqlite3-binary'
