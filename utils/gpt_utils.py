@@ -91,7 +91,7 @@ class ChatbotHandler:
             st.session_state.document_messages.append({"role": "user", "content": user_input})
             with st.spinner("Estamos trabalhando..."):
                 #
-                vectordb = Chroma.from_documents(chunks, embedding)
+                vectordb = FAISS.from_documents(chunks, embedding)
                 qa = RetrievalQA.from_chain_type(llm=llm, chain_type="stuff", retriever=vectordb.as_retriever(), memory=ConversationBufferMemory())
                 elapsed_time = time.time() - start_time
                 response = qa.run(user_input)
