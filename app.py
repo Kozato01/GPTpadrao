@@ -3,6 +3,7 @@ import streamlit as st
 import sys
 import os 
 import tempfile
+import sqlite3  
 import pandas as pd
 import time
 from layout.visual_page import set_app_style
