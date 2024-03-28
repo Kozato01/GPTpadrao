@@ -7,7 +7,7 @@ openai
 langchain-community
 langchain-openai
 python-dotenv
-chromadb
+chromadb==0.4.8
 streamlit-chat
 streamlit_authenticator
 streamlit_extras==0.4.0
